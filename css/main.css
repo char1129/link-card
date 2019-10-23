@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+}
+
+.link-card:hover {
+  background-color: #;
+  border-color: #;
+  color: #;
+}
+
+.link-card:hover .btn {
+  background-color: #;
+}
