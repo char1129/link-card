@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
-  line-height: 1.5rem;
   font-family: Georgia, serif;
 }
 
@@ -20,7 +19,7 @@ body {
   border: 2px solid #785439;
   border-radius: 3px;
   margin: .5rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .link-card:hover {
@@ -41,6 +40,9 @@ a {
 
 .description {
   display: inline-block;
+  line-height: 1.5rem;
+  padding: 1rem 0;
+  margin: 0;
 }
 
 .link-card:hover .btn {
@@ -51,9 +53,10 @@ a {
 dl {
   display: block;
   margin: 0 0 1rem;
-  padding: 1rem 0 0;
-  border-top: 2px solid #785439;
-  border-bottom: 2px solid #785439;
+  padding: 1rem 0;
+  border-top: 1.5px solid #785439;
+  border-bottom: 1.5px solid #785439;
+  line-height: 1.25rem;
 }
 
 dt {
@@ -103,11 +106,12 @@ dd {
 .btn {
   display: inline-block;
   margin: 0;
-  padding: .4em .75em .5em;
+  padding: .5em .75em;
   background-color: #785439;
   color: #f0eee8;
   font-weight: bold;
   border-radius: 8px;
   border-width: 3px;
   font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
 }
