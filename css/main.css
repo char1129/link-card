@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #f0eee8;
   line-height: 1.5rem;
-  font-family: Georgia 'Dosis', serif;
+  font-family: Georgia "Dosis", serif;
 }
 
 *, *::before, *::after {
@@ -23,9 +23,8 @@ body {
 }
 
 .link-card:hover {
-  background-color: #;
-  border-color: #;
-  color: #;
+  background-color: #dcd4cd;
+  border-color: #785439;
 }
 
 a {
